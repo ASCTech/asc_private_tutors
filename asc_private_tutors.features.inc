@@ -15,6 +15,13 @@ function asc_private_tutors_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function asc_private_tutors_views_api() {
+  return array("version" => "3.0");
+}
+
+/**
  * Implements hook_custom_breadcrumbs_views_config_features_default_settings().
  */
 function asc_private_tutors_custom_breadcrumbs_views_config_features_default_settings() {
