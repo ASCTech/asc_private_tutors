@@ -158,7 +158,6 @@ function asc_private_tutors_views_default_views() {
   $handler->display->display_options['fields']['field_starting_price']['table'] = 'field_data_field_starting_price';
   $handler->display->display_options['fields']['field_starting_price']['field'] = 'field_starting_price';
   $handler->display->display_options['fields']['field_starting_price']['label'] = 'Price';
-  $handler->display->display_options['fields']['field_starting_price']['empty'] = 'Negotiable';
   $handler->display->display_options['fields']['field_starting_price']['settings'] = array(
     'thousand_separator' => ' ',
     'prefix_suffix' => 1,
@@ -167,6 +166,7 @@ function asc_private_tutors_views_default_views() {
   $handler->display->display_options['fields']['field_highest_price']['id'] = 'field_highest_price';
   $handler->display->display_options['fields']['field_highest_price']['table'] = 'field_data_field_highest_price';
   $handler->display->display_options['fields']['field_highest_price']['field'] = 'field_highest_price';
+  $handler->display->display_options['fields']['field_highest_price']['empty'] = 'Negotiable';
   $handler->display->display_options['fields']['field_highest_price']['settings'] = array(
     'thousand_separator' => ' ',
     'prefix_suffix' => 1,

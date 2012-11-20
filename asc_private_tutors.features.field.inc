@@ -232,7 +232,7 @@ function asc_private_tutors_field_default_fields() {
       'bundle' => 'asc_private_tutor',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => 'Please enter the highest hourly price for the tutor or \'0\' for negotiable. Leave this value blank if the lowest and highest price are equal.',
+      'description' => 'Please enter the highest hourly price for the tutor or \'0\' for negotiable. ',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -256,7 +256,7 @@ function asc_private_tutors_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_highest_price',
       'label' => 'Highest Price',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'max' => '150',
         'min' => '0',
@@ -363,7 +363,7 @@ function asc_private_tutors_field_default_fields() {
       'bundle' => 'asc_private_tutor',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => 'Please enter the lowest hourly price for the tutor or \'0\' for negotiable.',
+      'description' => 'Please enter the lowest hourly price for the tutor or \'0\' for negotiable. Leave this value blank if the lowest and highest price are equal.',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -387,7 +387,7 @@ function asc_private_tutors_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_starting_price',
       'label' => 'Starting Price',
-      'required' => 1,
+      'required' => 0,
       'settings' => array(
         'max' => '150',
         'min' => '0',
@@ -412,8 +412,8 @@ function asc_private_tutors_field_default_fields() {
   t('First Name');
   t('Highest Price');
   t('Phone');
-  t('Please enter the highest hourly price for the tutor or \'0\' for negotiable. Leave this value blank if the lowest and highest price are equal.');
-  t('Please enter the lowest hourly price for the tutor or \'0\' for negotiable.');
+  t('Please enter the highest hourly price for the tutor or \'0\' for negotiable. ');
+  t('Please enter the lowest hourly price for the tutor or \'0\' for negotiable. Leave this value blank if the lowest and highest price are equal.');
   t('Starting Price');
   t('The e-mail address for the tutor.');
 

@@ -22,18 +22,6 @@ function asc_private_tutors_views_api() {
 }
 
 /**
- * Implements hook_custom_breadcrumbs_views_config_features_default_settings().
- */
-function asc_private_tutors_custom_breadcrumbs_views_config_features_default_settings() {
-  $custom_breadcrumbs_views_configs = array();
-
-  $custom_breadcrumbs_views_configs[] = array(
-    -749372189 => array(),
-  );
-  return $custom_breadcrumbs_views_configs;
-}
-
-/**
  * Implements hook_node_info().
  */
 function asc_private_tutors_node_info() {
