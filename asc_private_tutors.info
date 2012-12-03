@@ -6,7 +6,6 @@ php = 5.2.4
 version = 7.x-1.0
 project = asc_private_tutors
 dependencies[] = ctools
-dependencies[] = custom_breadcrumbs_views
 dependencies[] = email
 dependencies[] = features
 dependencies[] = number
